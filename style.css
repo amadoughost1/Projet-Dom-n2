@@ -1,0 +1,47 @@
+/* style.css */
+
+/* Mise en page générale */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Conteneur pour centrer les éléments */
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style de la boîte de couleur */
+  #color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Couleur de fond initiale */
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+  
+  /* Style du bouton */
+  #change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #change-color-btn:hover {
+    background-color: #27ae60;
+  }
+  
